@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Owl with glasses</title>
+  </head>
+  <body>
+    <h1>Owl with glasses</h1>
+
+    <p>
+    This owl was generated with Stable Diffusion, using the prompt "Owl in glasses":<br />
+    <img src="StableDiffusion.jpeg" width="150px" />
+    </p>
+
+    <p>
+    I tried using google image search to find if there was an original somewhere, but I could not find anything exactly the same.
+    When selecting parts of the image for searching, there were some interesting hits, but nothing exactly the same.
+    </p>
+
+    <p>
+    I then passed the image through a style GAN, mostly out of curiosity, and obtained the following image:<br />
+    <img src="StableDiffusion-animeganv2.png" width="150px" />
+    </p>
+
+    <p>
+    I am pretty entertained with the results.
+    </p>
+
+    <br />
+    <br />
+    <button id="ToggleVisibility">Show app info</button>
+    <div id="app-info">
+      <p>
+        This app is using Node.js <span id="node-version"></span>,
+        with Chromium <span id="chrome-version"></span>,
+        and Electron <span id="electron-version"></span>.
+      </p>
+    </div>
+
+    <script src="./index_styling.js"></script>
+  </body>
+</html>
