@@ -1,0 +1,19 @@
+{
+  "name": "first_electron_app",
+  "version": "1.0.0",
+  "description": "First electron app, following https://www.electronjs.org/docs/latest/tutorial/quick-start (27/10/2022)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Cristovao da Cruz e Silva",
+  "license": "Zlib",
+  "devDependencies": {
+    "electron": "^21.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbeiraod/first-electron-app"
+  }
+}
